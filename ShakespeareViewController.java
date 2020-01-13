@@ -124,7 +124,7 @@ public class ShakespeareViewController extends JFrame {
                             output.append("\n");
                         }
                         output.append("\n");
-                        output.append("There were " + word.occurrences.size() + " occurrences of " + inputText + " in Terrance Hayes' sonnets.");
+                        output.append("There were " + word.occurrences.size() + " occurrences of " + inputText + " in Terrance Hayes' sonnets.\n");
                         output.append("Out of " + hconcordance.totalWords + " total words, the frequency is: \n");
                         double frequency = Double.valueOf(word.occurrences.size())/hconcordance.totalWords*100;
                         frequency = Double.valueOf(Integer.valueOf((int) (frequency*100)))/100; // formatting to 2 decimals
